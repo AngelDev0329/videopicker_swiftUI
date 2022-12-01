@@ -8,6 +8,7 @@ target 'videopicker' do
   # Pods for videopicker
 #  pod 'DKImagePickerController'
   pod 'DKImagePickerController', :subspecs => ['PhotoGallery', 'Camera', 'InlineCamera']
+  pod "TLPhotoPicker"
 
 
   post_install do |installer|
